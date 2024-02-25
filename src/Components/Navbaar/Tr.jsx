@@ -21,11 +21,11 @@ const Tr = ({ data, hrs }) => {
     >
       <td>{data.name}</td>
       <td>
-        <input
+        {/* <input
           style={{ width: "80%" }}
           type="text"
           defaultValue={data.description}
-        />
+        /> */}
       </td>
       <td>{data.temp_in_celsius}</td>
       <td>{data.pressure_in_hPa}</td>

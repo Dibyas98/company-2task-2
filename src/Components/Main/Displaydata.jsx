@@ -10,22 +10,22 @@ const DisplayData = () => {
   const dispatch = useDispatch();
 
   // Function to search from input box...............
-  function handleSearch() {
-    dispatch({ type: "searched", payload: cityName.current.value });
-    setTimeout(() => {
-      cityName.current.value = "City Name";
-      dispatch({ type: "searched", payload: "" });
-    }, 3000);
-  }
+  // function handleSearch() {
+  //   dispatch({ type: "searched", payload: cityName.current.value });
+  //   setTimeout(() => {
+  //     cityName.current.value = "City Name";
+  //     dispatch({ type: "searched", payload: "" });
+  //   }, 3000);
+  // }
 
   return (
     <div className="display-data">
-      <div className="search">
+      {/* <div className="search">
         <input type="text" placeholder="City Name" ref={cityName} />
         <button style={{ fontSize: "20px" }} onClick={() => handleSearch()}>
           <AiOutlineSearch />
         </button>
-      </div>
+      </div> */}
       <table frame="box" rules="all" className="selected-table">
         <tbody>
           <tr className="selected-table-title">
