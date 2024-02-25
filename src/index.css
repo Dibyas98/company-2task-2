@@ -1,0 +1,109 @@
+.main {
+    border: 2px solid grey;
+    height: 75vh;
+    display: flex
+}
+
+.citylist {
+    border-right: 2px solid #000;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.get-weather {
+    width: 70%;
+    background-color: #4472c4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 10%;
+    margin: 5% 0
+}
+
+.table {
+    width: 70%
+}
+
+p {
+    padding: 8% 0
+}
+
+.city-list-title {
+    background-color: #4472c4;
+    color: #fff;
+    border: 1px solid grey
+}
+
+.city-list-selected {
+    border: 2px solid #7cfc00
+}
+
+.city-list-unselected {
+    border: 1px solid grey
+}
+
+.display-data {
+    border-left: 2px solid #000;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.search {
+    width: 90%;
+    color: #fff;
+    height: 10%;
+    margin: 1.2% 0;
+    display: flex;
+    justify-content: flex-end
+}
+
+.search>input {
+    width: 40%;
+    border-radius: 5px 0 0 5px
+}
+
+.search>button {
+    background-color: #4472c4;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    width: 10%
+}
+
+.selected-table {
+    width: 90%
+}
+
+.selected-table-title {
+    background-color: #4472c4;
+    color: #fff
+}
+
+.selected-table td {
+    padding: 1.2% 0
+}
+
+.navbar {
+    background-color: #4472c4;
+    height: 12vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+* {
+    margin: 0
+}
+
+button:hover {
+    opacity: .7
+}
+
+/*# sourceMappingURL=main.b34ef590.chunk.css.map */
